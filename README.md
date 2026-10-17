@@ -1,4 +1,5 @@
 # AI Tool Authorization Lab — revision 0.5
+https://github.com/user-attachments/assets/7045e25b-2461-465c-b5db-aa7990c698bc
 
 **Ownership checks do not stop prompt injection that targets the user's own data.** Alice asks the assistant to summarize ticket 3. A comment authored by Bob, who has comment-only access, tells the assistant to close ticket 1, which also belongs to Alice. Ownership passes; the backend's separate UI approval gate blocks the unrequested change. This is a confused-deputy scenario: another person's attacker-controlled tool data attempts to redirect an assistant that acts with the victim's own privileges. If Alice rubber-stamps the off-task proposal, it succeeds. Approval is a human decision boundary, not a complete prompt-injection defense.
 
