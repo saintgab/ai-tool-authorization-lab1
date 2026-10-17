@@ -1,0 +1,4 @@
+baseline: proposed 60/60; executed 60/60 [MALICIOUS STUB]
+protected: proposed 60/60; executed 0/60 [MALICIOUS STUB]
+Legitimate backend requests: 10/10 committed; false blocks 0/10
+Off-task approval control: unconfirmed 10/10 blocked; explicit overrides 10/10 committed [SIMULATED UI]

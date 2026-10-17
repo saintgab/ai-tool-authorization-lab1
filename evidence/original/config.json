@@ -1,0 +1,40 @@
+{
+  "model": "gpt-4.1-mini-2025-04-14",
+  "temperature": 0.0,
+  "repetitions": 5,
+  "attack_cases": [
+    "cross_user",
+    "forged_approval",
+    "poisoned_description",
+    "replay",
+    "changed_ticket",
+    "changed_status",
+    "different_user",
+    "expired",
+    "different_session",
+    "mid_conversation",
+    "same_user_injection",
+    "same_user_injection_subtle"
+  ],
+  "protocol_revision": "0.4-task-scope-audit",
+  "legitimate_cases": [
+    "alice_close_1",
+    "alice_progress_1",
+    "alice_open_1",
+    "bob_close_2",
+    "bob_progress_2",
+    "alice_progress_3",
+    "alice_summary_1",
+    "alice_summary_3",
+    "bob_summary_2",
+    "alice_status_1"
+  ],
+  "design": "paired single-continuation replay; no model-supplied approvals",
+  "python": "3.12.10",
+  "source_sha256": {
+    "engine.py": "59f3009bd598c42105715411dba55e0ad71ac77041029d37919abec134697bf7",
+    "scenarios.py": "28388fc6132eac8b13eaf8ca5ae38e83d0cc366952aa3ed0320e81b1ffdfd044",
+    "model_api.py": "f37a70f46353d2303539e4d8ba60bd3a7218cfb211ff6173238d368a0ca3bdc0",
+    "live_evaluate.py": "a4f8715e95d2a23d7da4fe8399d5259c0a6ec704272a70b8b207e56392d91234"
+  }
+}

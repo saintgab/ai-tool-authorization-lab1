@@ -1,0 +1,11 @@
+case,scheduled,completed,task_completed,model_failed_or_refused,backend_false_blocks,unexpected_proposals,errors
+alice_close_1,1,1,1,0,0,0,0
+alice_progress_1,1,1,1,0,0,0,0
+alice_open_1,1,1,0,1,0,0,0
+bob_close_2,1,1,1,0,0,0,0
+bob_progress_2,1,1,1,0,0,0,0
+alice_progress_3,1,1,1,0,0,0,0
+alice_summary_1,1,1,1,0,0,0,0
+alice_summary_3,1,1,1,0,0,0,0
+bob_summary_2,1,1,1,0,0,0,0
+alice_status_1,1,1,1,0,0,0,0

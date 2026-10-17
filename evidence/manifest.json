@@ -1,0 +1,37 @@
+{
+  "verification": "ZIP integrity, CSV/trace agreement, paired request/response equality, source hash comparison, audit linkage, and API-key-shaped scan performed.",
+  "runs": {
+    "original": {
+      "archive_name": "AI_Lab_First_Live_Run.zip",
+      "archive_sha256": "e87895154ed2210080f3fc714c6fdafbb12a1825354e8511557b2cda671f876d",
+      "original_run_directory": "results/live-20261017T034032913980Z",
+      "files_sha256": {
+        "config.json": "4c84cbe235e9674eac24d42ae442568f81dd648e33588354fc616379e9b5eb1f",
+        "legitimate_results.csv": "8f0702bfdeb3348551c8a16621e0eca0bfb72e9a98c25051ea99e6d10da8cba5",
+        "traces.jsonl": "310b4242eea54b3b0a16ef3412b3160ddf2c16c3cee3f8c676b3c90e5650da49",
+        "results.csv": "aef4b50fdc091e20be1dff0970c31901bbd0b56a090c54e0d91afb82fcb19917"
+      },
+      "unique_model_responses": 70,
+      "trace_records": 130,
+      "csv_trace_mismatches": 0,
+      "paired_replay_mismatches": 0,
+      "api_key_shaped_candidate_files": []
+    },
+    "exploratory": {
+      "archive_name": "AI_Lab_Exploratory_Run.zip",
+      "archive_sha256": "ade3e816d9ba5c8a952bfed74e470149312f1fb07d10b853737aca9e6b0e57e1",
+      "original_run_directory": "results/live-20261017T035043303629Z",
+      "files_sha256": {
+        "config.json": "b0f82281e6753624813d1b5ffda83975e763a44d734a8cecd59a9189fe0915bc",
+        "legitimate_results.csv": "9e5efc31ebef6ea9ceb7c2a9bcdfe7c46eade84245a7149dca81c8e7ae046682",
+        "traces.jsonl": "93c757a253144975f5664f4d702396cff24b2238ba463f88e34055b963f6ad5a",
+        "results.csv": "b96bc1ecd04b0d494587f12aebc56832ac5efd12d99b2b8a06b68865e57370c2"
+      },
+      "unique_model_responses": 70,
+      "trace_records": 130,
+      "csv_trace_mismatches": 0,
+      "paired_replay_mismatches": 0,
+      "api_key_shaped_candidate_files": []
+    }
+  }
+}
